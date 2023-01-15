@@ -7,6 +7,7 @@
 body{
    width: 100%;
    margin: 0 auto;
+  
 }
 a{
     text-decoration: none;
@@ -31,7 +32,7 @@ nav {
    
     display: flex;
  justify-content: space-between;
- padding: 4% 6%;
+ padding: 4% 0%;
 }
 nav h3 {
     font-size: 45px;
@@ -55,13 +56,17 @@ nav li {
     text-align: center;
     align-items: center;
 }
-.banner-heading{
+.banner h3{
     font-size: 64px;
     width: 862px;
 height: 225px;
+/* padding-top: 5rem; */
 font-weight: 700;
 }
-.banner-description{
+.banner{
+
+}
+.banner-description p{
     width: 868px;
     height: 52px;
    
@@ -69,14 +74,17 @@ font-weight: 700;
     font-size: 16px;
     line-height: 26px;
 }
+
 .banner-img{
     width: 100%;
 height: 700px;
 background-image: url(../images/banner.png);
+
 }
 .banner-btn{
     width: 180px;
 height: 64px;
+padding: 1rem 0rem 1rem 0rem;
 border: none;
 border-radius :8px;
 color: #FFEAD1;
