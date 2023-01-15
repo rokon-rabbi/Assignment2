@@ -52,7 +52,6 @@ nav h3 {
 
 nav > ul {
   display: flex;
- 
 }
 
 nav li {
@@ -176,10 +175,6 @@ nav li {
   line-height: 23px;
   width: 252px;
   height: 23px;
-}
-.text-style{
-  color: #727272;
-  font-weight:500;
 }
 .feature-list p {
   font-weight: 400;
@@ -355,84 +350,13 @@ input {
   font-size: 40px;
   line-height: 47px;
 }
-@media only screen and (max-width: 576px) {
-  nav{
-    flex-direction: column;
-    align-items:flex-start;
-  }
-  nav >ul{
-    flex-direction: column;
-  }
-  .banner h3 {
-    font-size: 1rem;
-    width: 10.87rem;
-    height: auto;
-    margin-top: 8%;
-    font-weight: 700;
-  }
-  .banner-description p {
-    
-    width: 20.25rem;
-    height: auto;
-    font-weight: 400;
-    font-size: 0.5rem;
-  }
-  .btn-primary {
-    width: 120px;
-    height: auto;
-    margin: 1rem 0rem;
-    border: none;
-    border-radius: 0.5rem;
-    color: #ffead1;
-    font-size: 1.25rem;
-    background-color: #ff900e;
-  }
-  .banner {
+@media (min-width: 576px) { 
+  nav {
     max-width: 80%;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: space-between;
     align-items: center;
-    height: 400px;
+    padding: 1% 0%;
   }
-  .header {
-    max-width: 100%;
-    height: 650px;
-    margin: 0 auto;
-    background-color: #fff4e7;
-  }
-  .quick-feature {
-    display: flex;
-    flex-direction: column;
-    margin-top: -1.5rem;
-    column-gap: 5rem;
-    align-items:flex-end;
-  }
-  .section-1 {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 1.5rem;
-    
-  }
-  .section-1 .team-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin-left: 0rem;
-  }
-  
-  .section2-heading h3 {
-    padding-top: 1rem;
-    font-size: 2rem;
-    margin-left: 300px;
-  }
-.section2-description p {
-  font-size: 1rem;
-  color: #727272;
-  
- 
-}
-  
 }
