@@ -24,14 +24,20 @@ a {
     background-color: #FF900E;
 }
 
+body{
+    width: 100%;
+}
 .header {
+    width: 100%;
     background-color: #FFEAD1;
+   
    
 
 }
 .header-content{
-    max-width:70rem;
+    max-width:80%;
     margin:0 auto;
+   
 }
 /* navigation css start here */
 
@@ -44,7 +50,7 @@ nav {
 }
 
 nav h3 {
-    font-size: 45px;
+    font-size: 2.813rem;
 
 }
 
@@ -57,7 +63,7 @@ nav>ul {
 nav li {
     list-style: none;
     margin-left: 5em;
-    font-size: 18px;
+    font-size: 1.125rem;
 
 }
 
@@ -69,9 +75,9 @@ nav li {
 }
 
 .banner h3 {
-    font-size: 64px;
-    width: 862px;
-    height: 225px;
+    font-size: 4rem;
+    width: 53.87rem;
+    height: 14rem;
     /* padding-top: 5rem; */
     font-weight: 700;
 }
@@ -79,12 +85,12 @@ nav li {
 .banner {}
 
 .banner-description p {
-    width: 868px;
-    height: 52px;
+    width: 54.25rem;
+    height: 3.25rem;
 
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.63rem;
 }
 
 .banner-img {
@@ -96,10 +102,10 @@ nav li {
 
 .banner-btn {
     width:11.25rem;
-    height: 64px;
+    height: 4rem;
     padding: 1rem 0rem 1rem 0rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     color: #FFEAD1;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
