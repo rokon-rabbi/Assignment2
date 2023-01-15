@@ -82,7 +82,9 @@ nav li {
     font-weight: 700;
 }
 
-.banner {}
+.banner {
+    margin-top: 5%;
+}
 
 .banner-description p {
     width: 54.25rem;
