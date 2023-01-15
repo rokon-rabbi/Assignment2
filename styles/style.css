@@ -238,10 +238,18 @@ nav li {
   height: 15.11rem;
   border: 1px solid #ff900e;
   border-radius: 8px;
-  /* transform: rotate(90deg); */
+  
+  transition: all 1s;
 }
-div .fact {
+ .facts {
   text-align: center;
+ 
+  width: 100px; /*just for example sake...*/
+  height: 200px; /*just for example sake...*/
+}
+.some-facts .facts:hover { 
+	width: 300px;
+  transform: rotate(90deg);
 }
 .icon {
   margin-top: 2rem;
@@ -282,6 +290,7 @@ justify-content: space-between;
   display: flex;
   padding:5rem;
  ;
+
  max-width: 80%; 
  margin:0,auto;
  margin-top: 2rem;
